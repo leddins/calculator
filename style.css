@@ -1,0 +1,119 @@
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  padding-top: 40px;
+  background: rgb(16, 26, 39);
+}
+#display{
+  height:100px;
+  width:420px;
+  color:goldenrod;
+  background-color: transparent;
+  margin: auto;
+  margin-bottom: 5px;
+  font-size:100%;
+  text-align: right;
+  line-height: 100px;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+#grid-container{
+  height: max-content;
+  width: max-content;
+  margin:auto;
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-gap: 10px;
+}
+#number0{
+  grid-column: 1 / 3;
+  grid-row: 5 / 6;
+}
+#number1{
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+#number2{
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;  
+}
+#number3{
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;  
+}
+#number4{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;  
+}
+#number5{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;  
+}
+#number6{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;  
+}
+#number7{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+#number8{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3; 
+}
+#number9{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;  
+}
+#point{
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+#enter{
+  grid-column: 4 / 5;
+  grid-row: 4 / 6;  
+}
+#clear{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2; 
+}
+#delete{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2; 
+}
+#plus{
+  grid-column: 4 / 5;
+  grid-row: 3 / 4; 
+}
+#minus{
+  grid-column: 4 / 5;
+  grid-row: 2 / 3; 
+}
+#times{
+  grid-column: 4 / 5;
+  grid-row: 1 / 2; 
+}
+#by{
+  grid-column: 3 / 4;
+  grid-row: 1 / 2; 
+}
+.oper{
+  background-color: blue;
+}
+
+
+button{
+  opacity:.7;
+  color:#123;
+  background-color:goldenrod;
+  border: none;
+  font-size:150%;
+  padding: 0;
+  text-justify: auto;
+  line-height: 100px;
+  border-radius: 10px;
+  outline: none;
+}
+button:active{
+  opacity:1;
+}
