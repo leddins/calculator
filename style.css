@@ -97,10 +97,9 @@ body{
   grid-column: 3 / 4;
   grid-row: 1 / 2; 
 }
-.oper{
+.oper, #clear, #delete{
   background-color: blue;
 }
-
 
 button{
   opacity:.7;
@@ -115,5 +114,8 @@ button{
   outline: none;
 }
 button:active{
+  opacity:1;
+}
+.selected{
   opacity:1;
 }
