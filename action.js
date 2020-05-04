@@ -57,7 +57,6 @@ function numberInput(e){
 }
 
 function process(e){
-  if (delayClear) return;
   rightNum = display.textContent;
   let result = +operate(currentOper, +leftNum, +rightNum);
   if (result.toString().length >= 14){
